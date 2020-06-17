@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "outDir": "./dist/",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "typeRoots": [
+          "node_modules/@types",
+          "@types/mysql"
+        ]
+    },
+    "exclude": ["./test"]
+}
